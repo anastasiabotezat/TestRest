@@ -12,13 +12,13 @@ namespace TestRest.Controllers
         // GET: api/Test
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Nastik", "is", "<3" };
         }
 
         // GET: api/Test/5
         public string Get(int id)
         {
-            return "value";
+            return "<3";
         }
 
         // POST: api/Test
